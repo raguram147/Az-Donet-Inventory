@@ -1,0 +1,81 @@
+# .NET Core & .NET 5+ Build Folders (dotnet 6, etc.)
+bin/
+obj/
+*.dll
+*.exe
+*.pdb
+*.mdb
+*.tmp
+*.log
+
+# NuGet Packages
+**/packages/*
+!**/packages/build/
+!**/packages/repositories.config
+
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+
+# User-specific files (Windows)
+*.vs/
+*.vscode/
+*.code-workspace
+
+# Mac-specific files
+.DS_Store
+
+# Linux-specific files
+*~
+
+# Environment Files
+.env
+
+# Build results
+publish/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Local history for Rider IDE
+.idea/.idea_history
+
+# Temporary files
+*.swp
+*.swo
+*.swn
+
+# Coverage results
+coverage/
+
+# Rider IDE files
+.idea/
+
+# VS Code folders
+.vscode/
+
+# JetBrains Rider folders
+.idea/
+
+# Entity Framework Core Migrations
+Migrations/
+
+# JetBrains Rider
+.idea/
+
+# ReSharper
+*.DotSettings.user
+
+# Local settings
+appsettings.local.json
+
+# Build server configuration
+*.Build/
+
+# Log files
+*.log
+
+# Dotnet tool cache
+.dotnet/tools/
